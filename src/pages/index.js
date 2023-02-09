@@ -17,7 +17,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <div>
-      <p>
+      <p className="text-3xl font-bold underline">
         Hello World
       </p>
     </div>
