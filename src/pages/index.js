@@ -6,7 +6,17 @@ import { Inter } from '@next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
-const Home = () => {  
+const getStaticProps = async () => {
+  const res = await fetch('YOUR_API_URL')
+  const data = await res.json()
+
+  return {
+    props: { data },  
+  }
+}
+
+const Home = ({data}) => {  
+  console.log(data)
   
   return (
     <>
