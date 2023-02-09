@@ -1,5 +1,6 @@
 import '@/styles/globals.css'
 import Head from 'next/head'
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 export default function App({ Component, pageProps }) {
   return (
