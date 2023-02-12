@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }) {
         <meta charSet="utf-8" />
         <title>HelloFaizan - Software Enthusiast</title>
         {/* favicon */}
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/faizan.png" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <meta name="theme-color" content="#171717" />
         <meta
