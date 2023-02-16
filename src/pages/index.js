@@ -19,8 +19,8 @@ const Home = () => {
       });
   }, []);
 
-  if (isLoading) return <p>Loading...</p>;
-  if (!data) return <p>No profile data</p>;
+  if (isLoading) return <p className='w-screen h-screen flex justify-center items-center'>Loading...</p>;
+  if (!data) return <p className='w-screen h-screen flex justify-center items-center'>No profile data</p>;
   
   return (
     <>
