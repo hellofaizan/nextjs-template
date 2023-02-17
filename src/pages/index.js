@@ -1,5 +1,5 @@
 import React from 'react'
-import { Inter } from '@next/font/google'
+import Image from 'next/image'
 import { useState, useEffect } from 'react'
 
 const Home = () => {  
@@ -19,9 +19,14 @@ const Home = () => {
       });
   }, []);
 
-  if (isLoading) return <p className='w-screen h-screen flex justify-center items-center'>Loading...</p>;
-  if (!data) return <p className='w-screen h-screen flex justify-center items-center'>No profile data</p>;
-  
+  if (isLoading) return <div className='w-screen h-screen flex justify-center items-center'>
+    <Image src={"/faizan.png"} width={60} height={60} alt="HelloFaizan Splach Screen Logo"></Image>
+  </div>
+
+  if (!data) return <div className='w-screen h-screen flex justify-center items-center'>
+    <Image src={"/faizan.png"} width={60} height={60} alt="HelloFaizan Splach Screen Logo"></Image>
+  </div>
+
   return (
     <>
     <div>
