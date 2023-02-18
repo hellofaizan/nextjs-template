@@ -3,4 +3,15 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images-ext-1.discordapp.net',
+        port: '',
+        pathname: '/**',
+      },
+    ],
+  },
+}
