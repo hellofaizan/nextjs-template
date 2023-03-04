@@ -1,10 +1,13 @@
 # NextJs Template
-### This template is made for NextJs with TailwindCSS and JavaScript (ES6) support. Also container Axios for API calls.
+
+### This template is made for NextJs with TailwindCSS and JavaScript (ES6) support. Also container Axios for API calls
 
 # How to run
-### First clone the repository and install the dependencies: ``` yarn add axios bootstrap-icons```
+
+### First clone the repository and install the dependencies: ```yarn add axios bootstrap-icons```
 
 Then simply run the following command to start the development server:
+
 ```
 yarn dev
 ```
