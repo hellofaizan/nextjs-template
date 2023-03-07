@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
+import { motion } from "framer-motion"
 
 const Home = () => {  
   const [data, setData] = useState(null);
@@ -19,11 +20,14 @@ const Home = () => {
 
   return (
     <>
-    <div>
+    <motion.div
+    initial={{ opacity: 0, scale: 0.8 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 0.2 }}>
       <p className="text-3xl font-bold underline">
         Hello World
       </p>
-    </div>
+    </motion.div>
     </>
   )
 }
