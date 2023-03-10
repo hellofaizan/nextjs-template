@@ -21,7 +21,7 @@ That's it! You can now start developing your NextJs app.
 </a>
 <br>
 <a href="https://discord.gg/vUHMxPvege">
-     <img src="https://invidget.switchblade.xyz/EHthxHRUmr" width="400" height="100" />
+     <img src="https://invidget.switchblade.xyz/vUHMxPvege" width="400" height="100" />
 </a>
 <hr/>
 
